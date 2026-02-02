@@ -12,9 +12,6 @@ This repository contains solutions for a MERN-based machine test, including algo
 /client # React + Vite frontend (Q5)
 /README.md # Project documentation
 
-php
-Copy code
-
 ---
 
 ## Q1: Arrays in Range [1..n] — Find Missing and Duplicates
@@ -39,7 +36,6 @@ Space: O(1) (ignoring result lists)
 Example:
 
 javascript
-Copy code
 const nums = [4, 3, 2, 7, 8, 2, 3, 1];
 
 findMissing(nums);    // [5, 6]
@@ -48,7 +44,6 @@ Q2: Palindrome Number Check
 Function:
 
 javascript
-Copy code
 function isPalindromeNumber(x) {}
 Requirement:
 
@@ -59,7 +54,6 @@ Include Jest tests with at least 5 cases
 Example:
 
 javascript
-Copy code
 isPalindromeNumber(121);  // true
 isPalindromeNumber(123);  // false
 Q3: Center-Aligned Number Pyramid
@@ -68,7 +62,6 @@ Print a center-aligned number pyramid for an odd integer n (1 ≤ n ≤ 31).
 
 Example for n = 5:
 
-Copy code
 1
 1 2
 1 2 3
@@ -90,14 +83,12 @@ HOD extends Student
 Methods:
 
 javascript
-Copy code
 setStudent(name)
 setHod(name)
 setCollege(name)
 info() // formatted output
 CLI Input Example:
 
-bash
 Copy code
 node index.js --student "Alice" --hod "Dr. Smith" --college "ABC College"
 Q5: MERN CRUD – Books API + React UI
@@ -115,9 +106,6 @@ Centralized error handling
 Tested with Postman / Thunder Client
 
 Start Backend:
-
-bash
-Copy code
 cd server
 npm install
 cp .env.sample .env   # configure MongoDB URI
@@ -137,9 +125,6 @@ Pages: BooksList, BookForm
 Features: display list, add, edit, delete, pagination, validation, loading & error states
 
 Start Frontend:
-
-bash
-Copy code
 cd client
 npm install
 cp .env.sample .env   # configure VITE_API_URL
@@ -150,14 +135,10 @@ Open http://localhost:5173
 Setup Steps (Full Project)
 Clone the repository:
 
-bash
-Copy code
 git clone <repo-url>
 cd <repo-directory>
 Install backend dependencies and configure .env:
 
-bash
-Copy code
 cd server
 npm install
 cp .env.sample .env
@@ -165,8 +146,6 @@ cp .env.sample .env
 npm run dev
 Install frontend dependencies and configure .env:
 
-bash
-Copy code
 cd client
 npm install
 cp .env.sample .env
