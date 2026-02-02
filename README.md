@@ -89,7 +89,6 @@ setCollege(name)
 info() // formatted output
 CLI Input Example:
 
-Copy code
 node index.js --student "Alice" --hod "Dr. Smith" --college "ABC College"
 Q5: MERN CRUD – Books API + React UI
 Backend (Node + Express + MongoDB)
