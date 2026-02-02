@@ -1,0 +1,76 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #b2d9ff;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: rgb(255, 187, 187);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 10px 12px 8px rgba(0, 0, 0, 0.452);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 14px;
+  margin-right: 5px;
+  border: none;
+  background: #94183d;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:disabled {
+  background: gray;
+}
+
+button.danger {
+  background: #d32f2f;
+}
+
+button.cancel {
+  background: #555;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.error {
+  color: rgb(204, 40, 40);
+  margin-bottom: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 10px;
+}
